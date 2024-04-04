@@ -24,6 +24,5 @@ int jacob = 0;
 if (myList.get(i).size() == len)
  myList.remove(i);
   }
-  return myList;
   }
 }

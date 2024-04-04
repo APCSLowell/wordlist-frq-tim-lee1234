@@ -11,7 +11,7 @@ public class WordList
   public int numWordsOfLength(int len)
   {
 int jacob = 0;
-    for (int i = myList.size(); i>=0; i--){
+    for (int i = myList.size()-1; i>=0; i--){
     if (myList.get(i).size() == len )
     jacob++;
   }
@@ -20,7 +20,7 @@ int jacob = 0;
 
   public void removeWordsOfLength(int len)
   {
- for (int i = myList.size(); i>=0; i--){
+ for (int i = myList.size()-1; i>=0; i--){
 if (myList.get(i).size() == len)
  myList.remove(i);
   }
